@@ -1,0 +1,42 @@
+<% var data = {
+title: "Второй заголовок | Проект",
+author: "Harrix"
+}; %>
+<%= _.template(require('./../includes/header.html'))(data) %>
+
+<div class="container"></div>
+
+<form autocomplete="off">
+    <input type="text" id="datepicker">
+    <select id="filter">
+        <option value=""></option>
+        <option value="555">555</option>
+        <option value="3434546346">3434546346</option>
+        <option value="5675685">5675685</option>
+    </select>
+    <button id="percent" type="button">%</button>
+</form>
+
+
+<div class="table">
+
+ <table id="userList">
+     <thead>
+       <tr>
+           <th>N</th>
+           <th>name</th>
+           <th>id</th>
+       </tr>
+     </thead>
+     <tbody>
+
+     </tbody>
+ </table>
+
+
+    <div id="test"></div>
+
+
+</div>
+
+<%= _.template(require('./../includes/footer.html'))(data) %>

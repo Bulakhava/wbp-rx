@@ -1,0 +1,39 @@
+
+div {
+
+}
+
+.butterfly_wrapper {
+  width: 1000px;
+  height: 600px;
+  margin: 50px auto;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  padding: 20px;
+  position: relative;
+}
+
+.flower{
+  width: 200px;
+  height: 220px;
+  background-image: url('../img/flower.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 250px;
+  left: 240px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.butterfly {
+  width: 60px;
+  height: 60px;
+  background-image: url('../img/sprite-butterfly.png');
+  position: absolute;
+  cursor: pointer;
+  background-position: -10px -40px;
+  top: 210px;
+  left: 350px;
+
+}
